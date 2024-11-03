@@ -1,0 +1,135 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('/images/location1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    background-color: #ea5858;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+main {
+    background-color: #bebebe;
+    text-align: center;
+    padding: 20px;
+}
+
+.location-image {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Attraction Listing Section */
+.attraction-listing {
+    padding: 20px;
+}
+
+.attraction {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.attraction img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.attraction h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.attraction p {
+    font-size: 1em;
+    color: #555;
+}
+
+
+.restaurant img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.restaurant h2, .restaurant p {
+    text-align: center;
+}
+
+/* Restaurant Listing Section */
+.restaurant-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.restaurant {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.restaurant img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.restaurant h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.restaurant p {
+    font-size: 1em;
+    color: #555;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
